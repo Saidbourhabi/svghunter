@@ -4,6 +4,15 @@ import { initReactI18next } from 'react-i18next'
 const resources = {
     en: {
     translation: {
+        meta: {
+        notFoundTitle: 'Page not found | SVGhunter',
+        },
+        notFound: {
+        title: 'Page not found',
+        message: 'Sorry, we couldn’t find the page you’re looking for.',
+        backHome: 'Go back home',
+        contactSupport: 'Contact support',
+        },
         header: {
         home: 'Home',
         docs: 'Docs',
@@ -29,6 +38,15 @@ const resources = {
 },
     ar: {
     translation: {
+        meta: {
+        notFoundTitle: 'الصفحة غير موجودة | SVGhunter',
+        },
+        notFound: {
+        title: 'الصفحة غير موجودة',
+        message: 'عذراً، لم نتمكن من العثور على الصفحة التي تبحث عنها.',
+        backHome: 'العودة إلى الرئيسية',
+        contactSupport: 'اتصل بالدعم',
+        },
         header: {
         home: 'الرئيسية',
         docs: 'التوثيق',
