@@ -34,6 +34,9 @@ const resources = {
         copyright: '© {{year}} SVGhunter. All rights reserved.',
         madeBy: 'Built with love',
         },
+        buymeacoffee: {
+        label: 'Buy me a coffee',
+        },
     },
 },
     ar: {
@@ -68,6 +71,9 @@ const resources = {
         copyright: '© {{year}} SVGhunter. جميع الحقوق محفوظة.',
         madeBy: 'بُني بحب',
         },
+        buymeacoffee: {
+        label: 'ادعمني بقهوة',
+        }
     },
 },
 }

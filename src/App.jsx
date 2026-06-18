@@ -4,11 +4,13 @@ import NotFound from "./pages/NotFound"
 import Documentation from "./pages/documentation/documentation"
 import Header from "./layouts/Header"
 import Footer from "./layouts/Footer"
+import BuymeaCoffee from "./components/main/BuymeaCoffee"
 
 function App() {
 
   return (
     <>
+    <BuymeaCoffee />
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
