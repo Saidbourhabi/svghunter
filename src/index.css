@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@import '@fontsource/luckiest-guy';
+
+
+@layer base {
+html {
+    scroll-behavior: smooth;
+    font-family: 'Luckiest Guy', system-ui;
+}
+body {
+    font-family: 'Luckiest Guy', system-ui;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Luckiest Guy', system-ui;
+    font-weight: 400;
+}
+}
