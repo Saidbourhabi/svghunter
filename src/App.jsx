@@ -5,6 +5,7 @@ import Documentation from "./pages/documentation/documentation"
 import Header from "./layouts/Header"
 import Footer from "./layouts/Footer"
 import BuymeaCoffee from "./components/main/BuymeaCoffee"
+import Toast from "./components/ui/Toast"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="*" element={<NotFound />} />
     </Routes>
     <Footer />
+    <Toast />
     </>
   )
 }
