@@ -7,6 +7,10 @@ const resources = {
         meta: {
         notFoundTitle: 'Page not found | SVGhunter',
         },
+        clipboard: {
+        copied: 'Copied to clipboard',
+        nothingToCopy: 'Nothing to copy',
+        },
         notFound: {
         title: 'Page not found',
         message: 'Sorry, we couldn’t find the page you’re looking for.',
@@ -43,6 +47,10 @@ const resources = {
     translation: {
         meta: {
         notFoundTitle: 'الصفحة غير موجودة | SVGhunter',
+        },
+        clipboard: {
+        copied: 'تم النسخ إلى الحافظة',
+        nothingToCopy: 'لا يوجد شيء للنسخ',
         },
         notFound: {
         title: 'الصفحة غير موجودة',
