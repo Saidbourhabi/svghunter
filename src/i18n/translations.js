@@ -7,6 +7,10 @@ const resources = {
         meta: {
         notFoundTitle: 'Page not found | SVGhunter',
         },
+        home: {
+        searchLabel: 'Search icons',
+        searchPlaceholder: 'Search all icons...',
+        },
         clipboard: {
         copied: 'Copied to clipboard',
         nothingToCopy: 'Nothing to copy',
@@ -47,6 +51,10 @@ const resources = {
     translation: {
         meta: {
         notFoundTitle: 'الصفحة غير موجودة | SVGhunter',
+        },
+        home: {
+        searchLabel: 'ابحث في الأيقونات',
+        searchPlaceholder: 'ابحث عن أيقونات بالاسم',
         },
         clipboard: {
         copied: 'تم النسخ إلى الحافظة',
