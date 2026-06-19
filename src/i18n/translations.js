@@ -6,10 +6,19 @@ const resources = {
     translation: {
         meta: {
         notFoundTitle: 'Page not found | SVGhunter',
+        docsTitle: 'Documentation | SVGhunter',
         },
         home: {
         searchLabel: 'Search icons',
         searchPlaceholder: 'Search all icons...',
+        },
+        docs: {
+        title: 'Documentation',
+        intro:
+        'SVGhunter is a lightweight SVG icon browser. Search the collection, open any icon, and copy the markup as SVG or JSX.',
+        step1: 'Browse or search icons on the home page.',
+        step2: 'Click an icon to open the detail drawer and preview it.',
+        step3: 'Use Copy SVG or Copy JSX to paste the markup into your project.',
         },
         clipboard: {
         copied: 'Copied to clipboard',
@@ -51,10 +60,19 @@ const resources = {
     translation: {
         meta: {
         notFoundTitle: 'الصفحة غير موجودة | SVGhunter',
+        docsTitle: 'التوثيق | SVGhunter',
         },
         home: {
         searchLabel: 'ابحث في الأيقونات',
         searchPlaceholder: 'ابحث عن أيقونات بالاسم',
+        },
+        docs: {
+        title: 'التوثيق',
+        intro:
+        'Svghunter متصفح خفيف لأيقونات SVG. ابحث في المجموعة، افتح أي أيقونة، وانسخ الترميز كـ SVG أو JSX.',
+        step1: 'تصفح أو ابحث عن الأيقونات في الصفحة الرئيسية.',
+        step2: 'انقر على أيقونة لفتح درج التفاصيل ومعاينتها.',
+        step3: 'استخدم نسخ SVG أو نسخ JSX للصق الترميز في مشروعك.',
         },
         clipboard: {
         copied: 'تم النسخ إلى الحافظة',
