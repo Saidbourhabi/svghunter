@@ -5,9 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:fast": "vite",
     "build": "vite build",
+    "build:icons": "node scripts/build.mjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predev": "node scripts/build.mjs",
+    "prebuild": "node scripts/build.mjs"
   },
   "dependencies": {
     "@fontsource/luckiest-guy": "^5.2.8",
