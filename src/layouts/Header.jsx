@@ -21,7 +21,7 @@ return (
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                <DisclosureButton className="group relative inline-flex items-center justify-center p-2 text-white hover:bg-black/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5b23ff]">
+                <DisclosureButton className="group cursor-pointer relative inline-flex items-center justify-center p-2 text-white hover:bg-black/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5b23ff]">
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">{t('header.openMenu')}</span>
                     <FaBars aria-hidden="true" className="block size-6 group-data-open:hidden" />
